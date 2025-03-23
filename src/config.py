@@ -1,0 +1,1 @@
+FEED_URL = "https://agenciabrasil.ebc.com.br/radioagencia-nacional/rss/meio-ambiente/feed.xml"
