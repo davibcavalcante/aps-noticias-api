@@ -13,7 +13,7 @@ Para colaborar no desenvolvimento e execução da API, siga os passos abaixo:
 
 ### **Passo 2: Navegue até a raiz do projeto**
 ```sh
-  cd nome-do-repositorio
+  cd \caminho\do\projeto\
 ```
 
 ### **Passo 3: Crie um ambiente virtual (venv)**
