@@ -8,7 +8,7 @@ Para colaborar no desenvolvimento e execução da API, siga os passos abaixo:
 
 ### **Passo 1: Clone este repositório**
 ```sh
-  git clone https://github.com/seu-usuario/nome-do-repositorio.git
+  git clone https://github.com/davibcavalcante/aps-noticias-api.git
 ```
 
 ### **Passo 2: Navegue até a raiz do projeto**
