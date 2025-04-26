@@ -1,92 +1,37 @@
 [
-  {
-    "text": "Novo aplicativo de edição de fotos com IA promete remover objetos indesejados em tempo real."
-  },
-  {
-    "text": "Festival de cinema de horror em drive-in atrai fãs do gênero em estacionamentos abandonados."
-  },
-  {
-    "text": "Plataforma de coaching para streamers ensina técnicas de engajamento em lives na Twitch."
-  },
-  {
-    "text": "Feira de quadrinhos alternativos reúne artistas independentes em galeria de arte urbana."
-  },
-  {
-    "text": "Campeonato nacional de xadrez online tem premiação em criptomoedas para os finalistas."
-  },
-  {
-    "text": "Exposição de arte generativa cria obras únicas baseadas no clima de diferentes capitais."
-  },
-  {
-    "text": "Serviço de assinatura mensal oferece kits de maquiagem temáticos inspirados em séries de TV."
-  },
-  {
-    "text": "App de realidade aumentada permite visualizar móveis em escala real dentro de casa."
-  },
-  {
-    "text": "Evento de cosplay medieval com batalhas simuladas usando espadas de espuma tecnológica."
-  },
-  {
-    "text": "Plataforma de turismo virtual oferece 'viagens' a planetas do sistema solar em 360°."
-  },
-  {
-    "text": "Programa de crédito verde financia instalação de painéis solares em escolas públicas do sertão."
-  },
-  {
-    "text": "Técnica inovadora de dessalinização solar abastece 20 comunidades costeiras no RN."
-  },
-  {
-    "text": "Projeto recupera 150 nascentes no Cerrado usando técnicas de bioengenharia australianas."
-  },
-  {
-    "text": "Cooperativas de reciclagem processam 1.2 milhão de toneladas de plástico em 2024."
-  },
-  {
-    "text": "Sistema de energia geotérmica em hospitais públicos reduz custos em 35% no Amazonas."
-  },
-  {
-    "text": "Tratado internacional protege 25% dos oceanos contra pesca industrial predatória."
-  },
-  {
-    "text": "Tecnologia transforma gases de aterro em combustível para caminhões de coleta seletiva."
-  },
-  {
-    "text": "Projeto de lei estabelece selo verde para indústrias com cadeias produtivas circulares."
-  },
-  {
-    "text": "Sensores inteligentes detectam vazamentos em 98% das redes de água em São Paulo."
-  },
-  {
-    "text": "Reflorestamento com espécies nativas recupera 800 hectares de Mata Atlântica em SC."
-  },
-  {
-    "text": "Vazamento de óleo diesel de termelétrica contamina reserva indígena no Mato Grosso."
-  },
-  {
-    "text": "Garimpo ilegal destrói 12 sítios arqueológicos em terra Yanomami em Roraima."
-  },
-  {
-    "text": "Relatório aponta contaminação por chumbo em 70% das hortas urbanas de Belo Horizonte."
-  },
-  {
-    "text": "Exportação ilegal de madeira nobre disfarçada em contêineres de móveis é descoberta."
-  },
-  {
-    "text": "Despejo clandestino de resíduos hospitalares em rio ameaça comunidade ribeirinha no PA."
-  },
-  {
-    "text": "Fiscalização encontra 450 hectares de cannabis em área de preservação permanente no PI."
-  },
-  {
-    "text": "Queimadas para pastagem consomem 18% do Parque Nacional da Chapada dos Guimarães."
-  },
-  {
-    "text": "Mineração ilegal de areia radioativa contamina aquífero estratégico no Ceará."
-  },
-  {
-    "text": "Contrabando de 25 toneladas de agrotóxicos proibidos é interceptado na tríplice fronteira."
-  },
-  {
-    "text": "Desmatamento para loteamentos irregulares avança 22% em áreas protegidas do DF."
-  }
+
+  { "text": "Brasil registra maior taxa de reflorestamento dos últimos 20 anos" },
+  { "text": "Energia solar cresce 35% e abastece milhões de casas" },
+  { "text": "População de tartarugas marinhas aumenta em área de preservação" },
+  { "text": "Cidades adotam transporte público elétrico em larga escala" },
+  { "text": "Projeto de reflorestamento urbano transforma áreas degradadas" },
+  { "text": "Reciclagem atinge recorde histórico na Europa em 2025" },
+  { "text": "Tecnologia remove CO2 da atmosfera com 90% de eficiência" },
+  { "text": "Governo amplia unidades de conservação ambiental" },
+  { "text": "Campanha global de limpeza dos oceanos remove 500 toneladas de plástico" },
+  { "text": "Espécie ameaçada volta a ser vista após 15 anos de extinção local" },
+
+
+  { "text": "Desmatamento na Amazônia aumenta 40% no primeiro semestre" },
+  { "text": "Derramamento de óleo afeta costa de três estados brasileiros" },
+  { "text": "Ondas de calor batem recordes e agravam crise hídrica" },
+  { "text": "Poluição do ar causa aumento em doenças respiratórias" },
+  { "text": "Incêndios florestais consomem mais de 1 milhão de hectares" },
+  { "text": "Estudos apontam colapso iminente em grande recife de corais" },
+  { "text": "Espécies nativas são substituídas por invasoras em biomas frágeis" },
+  { "text": "Níveis de microplástico encontrados em água potável preocupam cientistas" },
+  { "text": "Despejo irregular de lixo contamina solo e lençóis freáticos" },
+  { "text": "Degelo na Antártida acelera e ameaça cidades costeiras" },
+
+ 
+  { "text": "Cantor famoso posta foto em floresta e gera comentários" },
+  { "text": "Novo emoji de árvore é lançado em atualização do WhatsApp" },
+  { "text": "Estátua feita de lixo reciclado vira atração em praça local" },
+  { "text": "Celebridade diz amar o 'cheirinho de natureza' em entrevista" },
+  { "text": "Marca de refrigerante lança embalagem 'inspirada na floresta'" },
+  { "text": "Influencer grava vídeo plantando uma flor no quintal" },
+  { "text": "Filme sobre alienígenas verdes é sucesso de bilheteria" },
+  { "text": "Camisa com estampa de floresta vira tendência no verão" },
+  { "text": "Aplicativo que imita sons da natureza vira febre entre jovens" },
+  { "text": "Reality show grava episódio em área verde, mas nada é mostrado" }
 ]
