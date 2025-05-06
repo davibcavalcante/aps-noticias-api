@@ -3550,5 +3550,37 @@
     {
         "text": "programa auditorio apresenta curiosidades sobre animais",
         "label": 0
+    },
+    {
+        "text": "brasil realizar conferencia nacional meio ambiente",
+        "label": 1
+    },
+    {
+        "text": "defende marco regulatorio para emergencias climaticas",
+        "label": 1
+    },
+    {
+        "text": "operacao no vale do javari inutiliza dragas usadas em garimpos ilegais",
+        "label": 1
+    },
+    {
+        "text": "juventude atua para mudar os rumos do futuro agora",
+        "label": 0
+    },
+    {
+        "text": "operacao para retirar garimpeiros da terra indigena",
+        "label": 1
+    },
+    {
+        "text": "museu goeldi promove debates sobre a amazonia",
+        "label": 1
+    },
+    {
+        "text": "ganha premio conhecido como oscar verde",
+        "label": 1
+    },
+    {
+        "text": "cresce o desmatamento sitios arqueologicos",
+        "label": 2
     }
 ]

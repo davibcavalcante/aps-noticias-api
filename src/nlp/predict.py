@@ -77,7 +77,7 @@ def classify_all():
             # Prevendo a classificação
             prediction = model.predict(padded)[0]
             label = ["irrelevante", "boa", "ruim"][np.argmax(prediction)]
-            results.append({"text": clean_text_input, "classificacao": label})
+            results.append({"text": clean_text_input, "classificacao": label, "date": entry["date"], "tag": entry["tag"]})
         
         logger.info("Classificação concluída com sucesso.")
         return results

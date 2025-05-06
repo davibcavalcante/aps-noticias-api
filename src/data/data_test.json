@@ -1,8 +1,102 @@
 [
- 
-  { "text": "Oceano Pacífico enfrenta a maior quantidade de plástico já registrada" },
-  { "text": "Projeto de reflorestamento no Brasil já plantou 5 milhões de árvores" },
-  { "text": "Maior parque solar da Europa começa a gerar energia na Espanha" },
-  { "text": "Aquecimento global acelera o derretimento das calotas polares" },
-  { "text": "Nova tecnologia de reciclagem pode transformar plástico em combustível" }
+  {
+    "text": "Oceano Pacífico enfrenta a maior quantidade de plástico já registrada",
+    "date": "2025-04-30",
+    "tag": "poluição marinha"
+  },
+  {
+    "text": "Projeto de reflorestamento no Brasil já plantou 5 milhões de árvores",
+    "date": "2025-04-30",
+    "tag": "reflorestamento"
+  },
+  {
+    "text": "Maior parque solar da Europa começa a gerar energia na Espanha",
+    "date": "2025-04-30",
+    "tag": "energia renovável"
+  },
+  {
+    "text": "Aquecimento global acelera o derretimento das calotas polares",
+    "date": "2025-04-30",
+    "tag": "aquecimento global"
+  },
+  {
+    "text": "Nova tecnologia de reciclagem pode transformar plástico em combustível",
+    "date": "2025-04-30",
+    "tag": "reciclagem"
+  },
+  {
+    "text": "Sete meses após anúncio de Lula, Marina afirma que criação da Autoridade Climática está em fase de 'finalização'",
+    "date": "2025-05-05",
+    "tag": "política ambiental"
+  },
+  {
+    "text": "Tarifaço de Trump pode respingar nas negociações para a COP30",
+    "date": "2025-05-05",
+    "tag": "política ambiental"
+  },
+  {
+    "text": "Indígenas ainda são marginalizados no debate sobre a crise climática",
+    "date": "2025-05-04",
+    "tag": "justiça climática"
+  },
+  {
+    "text": "Pesquisa global traz boas notícias sobre a preservação de tartarugas marinhas",
+    "date": "2025-05-04",
+    "tag": "fauna marinha"
+  },
+  {
+    "text": "Celebridades comentam looks do MET Gala nas redes sociais",
+    "date": "2025-05-04",
+    "tag": "irrelevante"
+  },
+  {
+    "text": "Belém avança nas obras para a COP30, mas legado ainda é dúvida",
+    "date": "2025-05-03",
+    "tag": "infraestrutura ambiental"
+  },
+  {
+    "text": "Vara do Meio Ambiente reforça preocupação com a crise climática",
+    "date": "2025-05-03",
+    "tag": "política ambiental"
+  },
+  {
+    "text": "Lançamento do novo celular da TechZone atrai multidões",
+    "date": "2025-05-03",
+    "tag": "irrelevante"
+  },
+  {
+    "text": "Liberação da pesca de tubarão-azul pelo governo recebe críticas de ambientalistas e até de técnicos do Ibama",
+    "date": "2025-05-02",
+    "tag": "fauna marinha"
+  },
+  {
+    "text": "Brasileira ganha o Oscar Verde por trabalho sobre convívio em harmonia de onças com pessoas",
+    "date": "2025-05-02",
+    "tag": "fauna terrestre"
+  },
+  {
+    "text": "Primeira baleia-jubarte de 2025 é registrada oficialmente no litoral paulista",
+    "date": "2025-05-02",
+    "tag": "fauna marinha"
+  },
+  {
+    "text": "Reality show estreia nova temporada com surpresas no elenco",
+    "date": "2025-05-02",
+    "tag": "irrelevante"
+  },
+  {
+    "text": "Decreto amplia importação de resíduos e abre crise do governo com catadores",
+    "date": "2025-05-01",
+    "tag": "gestão de resíduos"
+  },
+  {
+    "text": "Como falar com crianças sobre extinção da natureza sem ser enciclopédico?",
+    "date": "2025-05-01",
+    "tag": "educação ambiental"
+  },
+  {
+    "text": "Campeonato nacional de eSports movimenta milhões em prêmios",
+    "date": "2025-05-01",
+    "tag": "irrelevante"
+  }
 ]
