@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from src.routes import rss_routes, classify_routes
+from src.routes import rss_routes, classify_routes, protocol
 from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI(title="RSS API", description="API para consumir um feed RSS")
@@ -18,6 +18,7 @@ async def test():
 
 app.include_router(rss_routes.router, prefix="/api/rss")
 app.include_router(classify_routes.router, prefix="/api/classify")
+app.include_router(protocol.router, prefix="/api/network")
 
 if __name__ == "__main__":
     import uvicorn

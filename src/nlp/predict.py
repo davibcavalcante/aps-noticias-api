@@ -3,7 +3,7 @@ import numpy as np
 import logging
 import json
 import pickle
-from tensorflow.keras.models import load_model
+import joblib
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 from src.nlp.preprocessing import clean_text
 
@@ -11,20 +11,19 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # Caminhos dos arquivos salvos
-MODEL_PATH = "src/nlp/models/model.h5"
+MODEL_PATH = "src/nlp/models/model.pkl"
 TOKENIZER_PATH = "src/nlp/models/tokenizer.pkl"
-DATA_PATH = "src/data/data.json"
 DATA_TEST_PATH = "src/data/data_test.json"
 
 # Função para carregar o modelo treinado
 def load_trained_model():
     try:
-        model = load_model(MODEL_PATH)
+        model = joblib.load(MODEL_PATH)
         logger.info("Modelo carregado com sucesso.")
         return model
     except Exception as e:
         logger.error(f"Erro ao carregar o modelo: {e}")
-        raise e  # Levanta o erro para garantir que o processo falhe corretamente
+        raise e
 
 # Função para carregar o tokenizer salvo
 def load_tokenizer():
@@ -37,6 +36,9 @@ def load_tokenizer():
         logger.error(f"Erro ao carregar o tokenizer: {e}")
         raise e
 
+# Labels (ajuste conforme necessário)
+LABELS = ["irrelevante", "boa", "ruim"]
+
 # Função para fazer a predição de uma frase
 def predict_class(text):
     model = load_trained_model()
@@ -44,12 +46,10 @@ def predict_class(text):
 
     clean_input = clean_text(text)
     sequence = tokenizer.texts_to_sequences([clean_input])
+    padded = pad_sequences(sequence, maxlen=100, padding='post', truncating='post')
 
-    padded = pad_sequences(sequence, maxlen=50, padding='post', truncating='post')
     prediction = model.predict(padded)[0]
-    
-    labels = ["irrelevante", "boa", "ruim"]
-    return labels[np.argmax(prediction)]
+    return LABELS[int(prediction)]
 
 # Função para classificar várias notícias do JSON
 def classify_all():
@@ -58,27 +58,28 @@ def classify_all():
         model = load_trained_model()
         tokenizer = load_tokenizer()
 
-        logger.info(f"Modelo e tokenizer carregados com sucesso.")
+        logger.info("Modelo e tokenizer carregados com sucesso.")
 
         with open(DATA_TEST_PATH, 'r', encoding='utf-8') as f:
-          data = json.load(f)
+            data = json.load(f)
 
         results = []
         for entry in data:
             clean_text_input = clean_text(entry["text"])
-
             logger.info(f"Processando texto: {clean_text_input}")
-            
-            sequence = tokenizer.texts_to_sequences([clean_text_input])
-            padded = pad_sequences(sequence, maxlen=50, padding='post', truncating='post')
-            
-            logger.info(f"Texto transformado para sequência.")
 
-            # Prevendo a classificação
+            sequence = tokenizer.texts_to_sequences([clean_text_input])
+            padded = pad_sequences(sequence, maxlen=100, padding='post', truncating='post')
+
             prediction = model.predict(padded)[0]
-            label = ["irrelevante", "boa", "ruim"][np.argmax(prediction)]
-            results.append({"text": clean_text_input, "classificacao": label, "date": entry["date"], "tag": entry["tag"]})
-        
+            label = LABELS[int(prediction)]
+            results.append({
+                "text": entry["text"],
+                "classificacao": label,
+                "date": entry.get("date"),
+                "tag": entry.get("tag")
+            })
+
         logger.info("Classificação concluída com sucesso.")
         return results
 
